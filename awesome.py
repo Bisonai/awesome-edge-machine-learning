@@ -109,7 +109,7 @@ for tol in table_of_contents:
         fp_sub = open(sub / "README.md", "w")
 
         fp_sub.write(h1(dir2name(sub.name)))
-        fp_sub.write(a(["Back to Awesome edge machine learning", config["url"]]))
+        fp_sub.write(a(["Back to awesome edge machine learning", config["url"]]))
         newline(fp_sub, iter=2)
         fp_sub.write(a([f"Back to {datafile}", config["url"] + f"/tree/master/{datafile}"]))
         newline(fp_sub, iter=2)
