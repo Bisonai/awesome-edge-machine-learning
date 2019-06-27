@@ -1,0 +1,14 @@
+# CHALLENGES
+---
+-
+  name: Low Power Recognition Challenge (LPIRC)
+  url: https://rebootingcomputing.ieee.org/lpirc
+  description: >
+    Competition with focus on the best vision solutions that can simultaneously achieve high accuracy in computer vision and energy efficiency. LPIRC is regularly held during computer vision conferences (CVPR, ICCV and others) since 2015 and the winners’ solutions have already improved 24 times in the ratio of accuracy divided by energy.
+
+
+    - [Online Track](https://rebootingcomputing.ieee.org/lpirc/online-track)
+
+
+    - [Onsite Track](https://rebootingcomputing.ieee.org/lpirc/onsite-track)
+...

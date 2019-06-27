@@ -1,0 +1,35 @@
+# TABLE OF CONTENTS
+#
+# `name` have to correspond to the name of directory.
+# The space between words will be replaced with underscore _
+#
+# The order of content will be same as defined here in this file.
+#
+# [Template]
+# -
+#   name:
+---
+-
+  name: Papers
+-
+  name: Inference Engines
+#-
+#    name: Labs
+# TODO bisonai inference time benchmark
+#-
+#    name: Benchmarks
+-
+  name: Books
+-
+  name: Challenges
+#-
+#    name: Companies
+# -
+#   name: Meetups
+-
+  name: Other Resources
+-
+ name: Contribute
+-
+  name: License
+...

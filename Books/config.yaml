@@ -1,0 +1,12 @@
+# BOOKS
+#
+# [Template]
+#
+# description:
+# sort_key:
+# sort_reverse:
+---
+description: List of books with focus on on-device (e.g., edge or mobile) machine learning.
+sort_key: published
+sort_reverse: true
+...

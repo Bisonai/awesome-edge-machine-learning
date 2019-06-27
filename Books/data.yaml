@@ -1,0 +1,34 @@
+# BOOKS
+#
+# [Template]
+# -
+#   title:
+#   subtitle:
+#   authors:
+#     -
+#   url:
+#   published:
+---
+-
+  title: Machine Learning by Tutorials
+  subtitle: Beginning machine learning for Apple and iOS
+  authors:
+    - Matthijs Hollemans
+  url: https://store.raywenderlich.com/products/machine-learning-by-tutorials
+  published: 2019
+-
+  title: Core ML Survival Guide
+  subtitle:
+  authors:
+    - Matthijs Hollemans
+  url: https://leanpub.com/coreml-survival-guide
+  published: 2018
+-
+  title: TinyML
+  subtitle: Machine Learning with TensorFlow on Arduino, and Ultra-Low Power Micro-Controllers
+  authors:
+    - Pete Warden
+    - Daniel Situnayake
+  url: http://shop.oreilly.com/product/0636920254508.do
+  published: 2020
+...

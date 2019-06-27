@@ -1,0 +1,80 @@
+# INFERENCE ENGINES
+
+# name:
+# company:
+# sourcecode:
+# documentation:
+# platform:
+# gpu:
+---
+-
+    name: MNN
+    company: Alibaba
+    sourcecode: https://github.com/alibaba/MNN
+    documentation:
+    platform:
+    gpu:
+-
+    name: Feather CNN
+    company: Tencent
+    sourcecode: https://github.com/Tencent/FeatherCNN
+    documentation:
+    platform:
+    gpu:
+-
+    name: NCNN
+    company: Tencent
+    sourcecode: https://github.com/tencent/ncnn
+    documentation:
+    platform: iOS, Android
+    gpu: true
+-
+    name: Paddle Mobile
+    company: Baidu
+    sourcecode: https://github.com/PaddlePaddle/paddle-mobile
+    documentation:
+    platform:
+    gpu:
+-
+    name: MXNet
+    company: Amazon
+    sourcecode:
+    documentation: https://mxnet.incubator.apache.org/versions/master/faq/smart_device.html
+    platform:
+    gpu:
+-
+    name: TensorFlow Lite
+    company: Google
+    sourcecode: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite
+    documentation: https://www.tensorflow.org/lite/
+    platform: Android, iOS
+    gpu: true
+-
+    name: Caffe 2
+    company: Facebook
+    sourcecode: https://github.com/pytorch/pytorch/tree/master/caffe2
+    documentation: https://caffe2.ai/
+    platform:
+    gpu:
+-
+    name: CoreML
+    company: Apple
+    sourcecode:
+    documentation: https://developer.apple.com/documentation/coreml
+    platform: iOS
+    gpu: true
+-
+    name: Neural Networks API
+    company: Google
+    sourcecode:
+    documentation: https://developer.android.com/ndk/guides/neuralnetworks/
+    platform:
+    gpu: true
+-
+    name: Deeplearning4j
+    company: Skymind
+    sourcecode:
+    documentation: https://deeplearning4j.org/docs/latest/deeplearning4j-android
+    platform:
+    gpu:
+...

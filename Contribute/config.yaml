@@ -1,0 +1,8 @@
+# CONTRIBUTE
+---
+description: >
+  Unlike other awesome list, we are storing data in <a href="https://en.wikipedia.org/wiki/YAML">YAML</a> format and markdown files are generated with `awesome.py` script.
+
+
+  Every directory contains `data.yaml` which stores data we want to display and `config.yaml` which stores its metadata (e.g. way of sorting data). The way how data will be presented is defined in `renderer.py`.
+...
