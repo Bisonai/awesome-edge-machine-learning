@@ -53,7 +53,7 @@ for tol in table_of_contents:
             for s in sub_table_of_contents:
                 lili(f, a([
                     dir2name(s.name),
-                    config["url"] + "/" + str(s),
+                    config["url"] + "/tree/master/" + str(s),
                 ]))
         else:
             level = default_level
@@ -111,7 +111,7 @@ for tol in table_of_contents:
         fp_sub.write(h1(dir2name(sub.name)))
         fp_sub.write(a(["Back to Awesome edge machine learning", config["url"]]))
         newline(fp_sub, iter=2)
-        fp_sub.write(a([f"Back to {datafile}", config["url"] + f"/{datafile}"]))
+        fp_sub.write(a([f"Back to {datafile}", config["url"] + f"/tree/master/{datafile}"]))
         newline(fp_sub, iter=2)
         fp_sub.write(data[idx]["description"])
         newline(fp_sub, iter=2)

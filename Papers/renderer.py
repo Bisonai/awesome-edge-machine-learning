@@ -10,7 +10,7 @@ from utils import name2dir
 def renderer(fp, data, config):
     fp.write(h3(a([
         data["name"],
-        config["url"] + "/Papers/" + name2dir(data["name"]),
+        config["url"] + "/tree/master/Papers/" + name2dir(data["name"]),
     ])))
     fp.write(p(data["description"]))
     fp.write("\n")

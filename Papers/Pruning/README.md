@@ -1,7 +1,7 @@
 # Pruning
 [Back to Awesome edge machine learning](https://github.com/bisonai/awesome-edge-machine-learning)
 
-[Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/Papers)
+[Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers)
 
 Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>.
 

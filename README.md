@@ -5,10 +5,10 @@ A curated list of awesome edge machine learning resources, including research pa
 
 ## Table of Contents
 - [Papers](https://github.com/bisonai/awesome-edge-machine-learning#papers)
-	- [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/Papers/AutoML)
-	- [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/Papers/Efficient_Architectures)
-	- [Pruning](https://github.com/bisonai/awesome-edge-machine-learning/Papers/Pruning)
-	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/Papers/Quantization)
+	- [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
+	- [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
+	- [Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Pruning)
+	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
 - [Inference Engines](https://github.com/bisonai/awesome-edge-machine-learning#inference-engines)
 - [Books](https://github.com/bisonai/awesome-edge-machine-learning#books)
 - [Challenges](https://github.com/bisonai/awesome-edge-machine-learning#challenges)
@@ -17,19 +17,19 @@ A curated list of awesome edge machine learning resources, including research pa
 - [License](https://github.com/bisonai/awesome-edge-machine-learning#license)
 
 ## Papers
-### [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/Papers/AutoML)
+### [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
 Automated machine learning (AutoML) is the process of automating the end-to-end process of applying machine learning to real-world problems<sup><a href="https://en.wikipedia.org/wiki/Automated_machine_learning" targe="_blank">Wikipedia</a></sup>. AutoML is for example used to design new efficient neural architectures with a constraint on a computational budget (defined either as a number of FLOPS or as an inference time measured on real device) or a size of the architecture.
 
 
-### [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/Papers/Efficient_Architectures)
+### [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
 
-### [Pruning](https://github.com/bisonai/awesome-edge-machine-learning/Papers/Pruning)
+### [Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Pruning)
 Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>.
 
 
-### [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/Papers/Quantization)
+### [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
 Quantization is the process of reducing a precision (from 32 bit floating point into lower bit depth representations) of weights and/or activations in a neural network. The advantages of this method are reduced model size and faster model inference on hardware that support arithmetic operations in lower precision.
 
 

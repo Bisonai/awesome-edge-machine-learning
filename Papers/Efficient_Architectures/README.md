@@ -1,7 +1,7 @@
 # Efficient Architectures
 [Back to Awesome edge machine learning](https://github.com/bisonai/awesome-edge-machine-learning)
 
-[Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/Papers)
+[Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers)
 
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 

@@ -1,7 +1,7 @@
 # Quantization
 [Back to Awesome edge machine learning](https://github.com/bisonai/awesome-edge-machine-learning)
 
-[Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/Papers)
+[Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers)
 
 Quantization is the process of reducing a precision (from 32 bit floating point into lower bit depth representations) of weights and/or activations in a neural network. The advantages of this method are reduced model size and faster model inference on hardware that support arithmetic operations in lower precision.
 
