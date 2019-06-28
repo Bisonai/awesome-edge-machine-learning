@@ -53,7 +53,7 @@
     MobileNetV2: Inverted Residuals and Linear Bottlenecks
   url: https://arxiv.org/abs/1801.04381
   date: 2018/01/13
-  conference:
+  conference: CVPR 2018
   code:
   authors: Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen
   abstract: >
@@ -64,7 +64,7 @@
     ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network
   url: https://arxiv.org/abs/1811.11431
   date: 2018/11/28
-  conference:
+  conference: CVPR 2019
   code:
   authors: Sachin Mehta, Mohammad Rastegari, Linda Shapiro, Hannaneh Hajishirzi
   abstract: >
@@ -98,7 +98,7 @@
     ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation
   url: https://arxiv.org/abs/1803.06815
   date: 2018/03/19
-  conference:
+  conference: ECCV 2018
   code:
   authors: Sachin Mehta, Mohammad Rastegari, Anat Caspi, Linda Shapiro, Hannaneh Hajishirzi
   abstract: >
