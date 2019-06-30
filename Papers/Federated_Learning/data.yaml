@@ -1,0 +1,41 @@
+# FEDERATED LEARNING
+#
+# `date` format is as following yyy/mm/dd. For example 6 May 2019 would be 2019/05/06.
+# In case of arxiv, use the date of the first version of paper.
+#
+# [Template]
+#
+# -
+#   name:
+#   url:
+#   date:
+#   conference:
+#   code:
+#   authors:
+#   abstract:
+---
+
+-
+  name: >
+    Communication-Efficient Learning of Deep Networks from Decentralized Data
+  url: https://arxiv.org/abs/1602.05629
+  date: 2016/02/17
+  conference: AISTATS 2017
+  code:
+  authors: H. Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, Blaise Agüera y Arcas
+  abstract: >
+    Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device. For example, language models can improve speech recognition and text entry, and image models can automatically select good photos. However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches. We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates. We term this decentralized approach Federated Learning.
+    We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets. These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting. Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent.
+
+-
+  name: >
+    Towards Federated Learning at Scale: System Design
+  url: https://arxiv.org/abs/1902.01046
+  date: 2019/02/04
+  conference:
+  code:
+  authors: Keith Bonawitz, Hubert Eichner, Wolfgang Grieskamp, Dzmitry Huba, Alex Ingerman, Vladimir Ivanov, Chloe Kiddon, Jakub Konečný, Stefano Mazzocchi, H. Brendan McMahan, Timon Van Overveldt, David Petrou, Daniel Ramage, Jason Roselander
+  abstract: >
+    Federated Learning is a distributed machine learning approach which enables model training on a large corpus of decentralized data. We have built a scalable production system for Federated Learning in the domain of mobile devices, based on TensorFlow. In this paper, we describe the resulting high-level design, sketch some of the challenges and their solutions, and touch upon the open problems and future directions.
+
+...

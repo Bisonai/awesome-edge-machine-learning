@@ -3,7 +3,7 @@
 
 [Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers)
 
-Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>.
+Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations.<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>
 
 
 ## [Importance Estimation for Neural Network Pruning](http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf), 2019/06
