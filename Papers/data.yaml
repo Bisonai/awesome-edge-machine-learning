@@ -7,6 +7,10 @@
 #   description:
 ---
 
+- name: Applications
+  description: >
+    There is a countless number of possible edge machine learning applications. Here, we collect papers that describe specific solutions.
+
 -
   name: Federated Learning
   description: >

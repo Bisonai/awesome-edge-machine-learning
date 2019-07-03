@@ -1,6 +1,12 @@
 # Papers
 [Back to awesome edge machine learning](https://github.com/bisonai/awesome-edge-machine-learning)
 
+## Applications
+
+There is a countless number of possible edge machine learning applications. Here, we collect papers that describe specific solutions.
+
+- [PFLD: A Practical Facial Landmark Detector](https://arxiv.org/abs/1902.10859). Xiaojie Guo, Siyuan Li, Jinke Yu, Jiawan Zhang, Jiayi Ma, Lin Ma, Wei Liu, Haibin Ling
+
 ## AutoML
 
 Automated machine learning (AutoML) is the process of automating the end-to-end process of applying machine learning to real-world problems.<sup><a href="https://en.wikipedia.org/wiki/Automated_machine_learning" targe="_blank">Wikipedia</a></sup> AutoML is for example used to design new efficient neural architectures with a constraint on a computational budget (defined either as a number of FLOPS or as an inference time measured on real device) or a size of the architecture.

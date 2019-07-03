@@ -5,6 +5,7 @@ A curated list of awesome edge machine learning resources, including research pa
 
 ## Table of Contents
 - [Papers](https://github.com/bisonai/awesome-edge-machine-learning#papers)
+	- [Applications](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Applications)
 	- [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
 	- [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
 	- [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
@@ -18,6 +19,10 @@ A curated list of awesome edge machine learning resources, including research pa
 - [License](https://github.com/bisonai/awesome-edge-machine-learning#license)
 
 ## Papers
+### [Applications](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Applications)
+There is a countless number of possible edge machine learning applications. Here, we collect papers that describe specific solutions.
+
+
 ### [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
 Automated machine learning (AutoML) is the process of automating the end-to-end process of applying machine learning to real-world problems.<sup><a href="https://en.wikipedia.org/wiki/Automated_machine_learning" targe="_blank">Wikipedia</a></sup> AutoML is for example used to design new efficient neural architectures with a constraint on a computational budget (defined either as a number of FLOPS or as an inference time measured on real device) or a size of the architecture.
 
