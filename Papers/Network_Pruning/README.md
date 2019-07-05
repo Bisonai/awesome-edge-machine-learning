@@ -1,4 +1,4 @@
-# Pruning
+# Network Pruning
 [Back to awesome edge machine learning](https://github.com/bisonai/awesome-edge-machine-learning)
 
 [Back to Papers](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers)

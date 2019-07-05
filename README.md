@@ -9,7 +9,7 @@ A curated list of awesome edge machine learning resources, including research pa
 	- [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
 	- [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
 	- [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
-	- [Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Pruning)
+	- [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)
 	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
 - [Datasets](https://github.com/bisonai/awesome-edge-machine-learning#datasets)
 - [Inference Engines](https://github.com/bisonai/awesome-edge-machine-learning#inference-engines)
@@ -36,7 +36,7 @@ Efficient architectures represent neural networks with small memory footprint an
 Federated Learning enables mobile phones to collaboratively learn a shared prediction model while keeping all the training data on device, decoupling the ability to do machine learning from the need to store the data in the cloud.<sup><a href="https://ai.googleblog.com/2017/04/federated-learning-collaborative.html" target="_blank">Google AI blog: Federated Learning</a></sup>
 
 
-### [Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Pruning)
+### [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)
 Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations.<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>
 
 
