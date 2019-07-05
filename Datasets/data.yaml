@@ -1,0 +1,9 @@
+# DATASETS
+---
+-
+  name: Visual Wake Words Dataset
+  url: https://arxiv.org/abs/1906.05721
+  description: >
+     Visual Wake Words represents a common microcontroller vision use-case of identifying whether a person is present in the image or not, and provides a realistic benchmark for tiny vision models. Within a limited memory footprint of 250 KB, several state-of-the-art mobile models achieve accuracy of 85-90% on the Visual Wake Words dataset.
+
+...

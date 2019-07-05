@@ -11,6 +11,7 @@ A curated list of awesome edge machine learning resources, including research pa
 	- [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
 	- [Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Pruning)
 	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
+- [Datasets](https://github.com/bisonai/awesome-edge-machine-learning#datasets)
 - [Inference Engines](https://github.com/bisonai/awesome-edge-machine-learning#inference-engines)
 - [Books](https://github.com/bisonai/awesome-edge-machine-learning#books)
 - [Challenges](https://github.com/bisonai/awesome-edge-machine-learning#challenges)
@@ -41,6 +42,11 @@ Pruning is a common method to derive a compact network – after training, some 
 
 ### [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
 Quantization is the process of reducing a precision (from 32 bit floating point into lower bit depth representations) of weights and/or activations in a neural network. The advantages of this method are reduced model size and faster model inference on hardware that support arithmetic operations in lower precision.
+
+
+## Datasets
+### [Visual Wake Words Dataset](https://arxiv.org/abs/1906.05721)
+Visual Wake Words represents a common microcontroller vision use-case of identifying whether a person is present in the image or not, and provides a realistic benchmark for tiny vision models. Within a limited memory footprint of 250 KB, several state-of-the-art mobile models achieve accuracy of 85-90% on the Visual Wake Words dataset.
 
 
 ## Inference Engines
