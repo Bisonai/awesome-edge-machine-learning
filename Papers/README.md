@@ -29,6 +29,8 @@ Automated machine learning (AutoML) is the process of automating the end-to-end 
 
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
+- [Butterfly Transform: An Efficient FFT Based Neural Architecture Design](https://arxiv.org/abs/1906.02256). Keivan Alizadeh, Ali Farhadi, Mohammad Rastegari
+
 - [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946). Mingxing Tan, Quoc V. Le
 
 - [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244). Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig Adam
