@@ -14,6 +14,73 @@
 #   authors:
 #   abstract:
 ---
+
+-
+  name: >
+    Structured Pruning of Neural Networks with Budget-Aware Regularization
+  url: https://arxiv.org/abs/1811.09332
+  date: 2018/11/23
+  conference: CVPR 2019
+  code:
+  authors: Carl Lemaire, Andrew Achkar, Pierre-Marc Jodoin
+  abstract: >
+    Pruning methods have shown to be effective at reducing the size of deep neural networks while keeping accuracy almost intact. Among the most effective methods are those that prune a network while training it with a sparsity prior loss and learnable dropout parameters. A shortcoming of these approaches however is that neither the size nor the inference speed of the pruned network can be controlled directly; yet this is a key feature for targeting deployment of CNNs on low-power hardware. To overcome this, we introduce a budgeted regularized pruning framework for deep convolutional neural networks. Our approach naturally fits into traditional neural network training as it consists of a learnable masking layer, a novel budget-aware objective function, and the use of knowledge distillation. We also provide insights on how to prune a residual network and how this can lead to new architectures. Experimental results reveal that CNNs pruned with our method are more accurate and less compute-hungry than state-of-the-art methods. Also, our approach is more effective at preventing accuracy collapse in case of severe pruning; this allows us to attain pruning factors up to 16x without significantly affecting the accuracy.
+
+-
+  name: >
+    On Implicit Filter Level Sparsity in Convolutional Neural Networks
+  url: https://arxiv.org/abs/1811.12495
+  date: 2018/11/29
+  conference: CVPR 2019
+  code:
+  authors: Dushyant Mehta, Kwang In Kim, Christian Theobalt
+  abstract: >
+    We investigate filter level sparsity that emerges in convolutional neural networks (CNNs) which employ Batch Normalization and ReLU activation, and are trained with adaptive gradient descent techniques and L2 regularization or weight decay. We conduct an extensive experimental study casting our initial findings into hypotheses and conclusions about the mechanisms underlying the emergent filter level sparsity. This study allows new insight into the performance gap obeserved between adapative and non-adaptive gradient descent methods in practice. Further, analysis of the effect of training strategies and hyperparameters on the sparsity leads to practical suggestions in designing CNN training strategies enabling us to explore the tradeoffs between feature selectivity, network capacity, and generalization performance. Lastly, we show that the implicit sparsity can be harnessed for neural network speedup at par or better than explicit sparsification / pruning approaches, with no modifications to the typical training pipeline required.
+
+-
+  name: >
+    Filter Pruning via Geometric Median for Deep Convolutional Neural Networks Acceleration
+  url: https://arxiv.org/abs/1811.00250
+  date: 2018/11/01
+  conference: CVPR 2019
+  code: https://github.com/he-y/filter-pruning-geometric-median
+  authors: Yang He, Ping Liu, Ziwei Wang, Zhilan Hu, Yi Yang
+  abstract: >
+    Previous works utilized "smaller-norm-less-important" criterion to prune filters with smaller norm values in a convolutional neural network. In this paper, we analyze this norm-based criterion and point out that its effectiveness depends on two requirements that are not always met: (1) the norm deviation of the filters should be large; (2) the minimum norm of the filters should be small. To solve this problem, we propose a novel filter pruning method, namely Filter Pruning via Geometric Median (FPGM), to compress the model regardless of those two requirements. Unlike previous methods, FPGM compresses CNN models by pruning filters with redundancy, rather than those with "relatively less" importance. When applied to two image classification benchmarks, our method validates its usefulness and strengths. Notably, on CIFAR-10, FPGM reduces more than 52% FLOPs on ResNet-110 with even 2.69% relative accuracy improvement. Moreover, on ILSVRC-2012, FPGM reduces more than 42% FLOPs on ResNet-101 without top-5 accuracy drop, which has advanced the state-of-the-art. Code is publicly available on [GitHub](https://github.com/he-y/filter-pruning-geometric-median).
+
+-
+  name: >
+    Variational Convolutional Neural Network Pruning
+  url: http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhao_Variational_Convolutional_Neural_Network_Pruning_CVPR_2019_paper.pdf
+  date: 2019/01/01
+  conference: CVPR 2019
+  code:
+  authors: Chenglong Zhao, Bingbing Ni, Jian Zhang, Qiwei Zhao, Wenjun Zhang, Qi Tian
+  abstract: >
+    We propose a variational Bayesian scheme for pruningconvolutional neural networks in channel level. This idea ismotivated by the fact that deterministic value based pruningmethods are inherently improper and unstable. In a nut-shell, variational technique is introduced to estimate dis-tribution of a newly proposed parameter, called channelsaliency, based on this, redundant channels can be removedfrom model via a simple criterion.  The advantages aretwo-fold: 1) Our method conducts channel pruning with-out desire of re-training stage, thus improving the compu-tation efficiency. 2) Our method is implemented as a stand-alone module, called variational pruning layer, which canbe straightforwardly inserted into off-the-shelf deep learn-ing packages, without any special network design. Exten-sive experimental results well demonstrate the effectivenessof our method: For CIFAR-10, we perform channel removalon different CNN models up to 74% reduction, which resultsin significant size reduction and computation saving. ForImageNet, about 40% channels of ResNet-50 are removedwithout compromising accuracy.
+
+-
+  name: >
+    Centripetal SGD for Pruning Very Deep Convolutional Networks with Complicated Structure
+  url: https://arxiv.org/abs/1904.03837
+  date: 2019/04/08
+  conference: CVPR 2019
+  code: https://github.com/ShawnDing1994/Centripetal-SGD
+  authors: Xiaohan Ding, Guiguang Ding, Yuchen Guo, Jungong Han
+  abstract: >
+   The redundancy is widely recognized in Convolutional Neural Networks (CNNs), which enables to remove unimportant filters from convolutional layers so as to slim the network with acceptable performance drop. Inspired by the linear and combinational properties of convolution, we seek to make some filters increasingly close and eventually identical for network slimming. To this end, we propose Centripetal SGD (C-SGD), a novel optimization method, which can train several filters to collapse into a single point in the parameter hyperspace. When the training is completed, the removal of the identical filters can trim the network with NO performance loss, thus no finetuning is needed. By doing so, we have partly solved an open problem of constrained filter pruning on CNNs with complicated structure, where some layers must be pruned following others. Our experimental results on CIFAR-10 and ImageNet have justified the effectiveness of C-SGD-based filter pruning. Moreover, we have provided empirical evidences for the assumption that the redundancy in deep neural networks helps the convergence of training by showing that a redundant CNN trained using C-SGD outperforms a normally trained counterpart with the equivalent width.
+
+-
+  name: >
+    Towards Optimal Structured CNN Pruning via Generative Adversarial Learning
+  url: https://arxiv.org/abs/1903.09291
+  date: 2019/03/22
+  conference: CVPR 2019
+  code:
+  authors: Shaohui Lin, Rongrong Ji, Chenqian Yan, Baochang Zhang, Liujuan Cao, Qixiang Ye, Feiyue Huang, David Doermann
+  abstract: >
+    Structured pruning of filters or neurons has received increased focus for compressing convolutional neural networks. Most existing methods rely on multi-stage optimizations in a layer-wise manner for iteratively pruning and retraining which may not be optimal and may be computation intensive. Besides, these methods are designed for pruning a specific structure, such as filter or block structures without jointly pruning heterogeneous structures. In this paper, we propose an effective structured pruning approach that jointly prunes filters as well as other structures in an end-to-end manner. To accomplish this, we first introduce a soft mask to scale the output of these structures by defining a new objective function with sparsity regularization to align the output of baseline and network with this mask. We then effectively solve the optimization problem by generative adversarial learning (GAL), which learns a sparse soft mask in a label-free and an end-to-end manner. By forcing more scaling factors in the soft mask to zero, the fast iterative shrinkage-thresholding algorithm (FISTA) can be leveraged to fast and reliably remove the corresponding structures. Extensive experiments demonstrate the effectiveness of GAL on different datasets, including MNIST, CIFAR-10 and ImageNet ILSVRC 2012. For example, on ImageNet ILSVRC 2012, the pruned ResNet-50 achieves 10.88\% Top-5 error and results in a factor of 3.7x speedup. This significantly outperforms state-of-the-art methods.
+
 -
   name: >
     The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks
@@ -38,4 +105,5 @@
   authors: Pavlo Molchanov, Arun Mallya, Stephen Tyree, Iuri Frosio, Jan Kautz
   abstract: >
     Structural pruning of neural network parameters reduces computation, energy, and memory transfer costs during inference. We propose a novel method that estimates the contribution of a neuron (filter) to the final loss and iteratively removes those with smaller scores. We describe two variations of our method using the first and second-order Taylor expansions to approximate a filter's contribution. Both methods scale consistently across any network layer without requiring per-layer sensitivity analysis and can be applied to any kind of layer, including skip connections. For modern networks trained on ImageNet, we measured experimentally a high (>93%) correlation between the contribution computed by our methods and a reliable estimate of the true importance. Pruning with the proposed methods leads to an improvement over state-of-the-art in terms of accuracy, FLOPs, and parameter reduction. On ResNet-101, we achieve a 40% FLOPS reduction by removing 30% of the parameters, with a loss of 0.02% in the top-1 accuracy on ImageNet. Code is available at [https://github.com/NVlabs/Taylor_pruning](https://github.com/NVlabs/Taylor_pruning).
+
 ...
