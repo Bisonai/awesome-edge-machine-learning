@@ -10,6 +10,7 @@ A curated list of awesome edge machine learning resources, including research pa
 	- [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
 	- [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
 	- [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)
+	- [Others](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Others)
 	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
 - [Datasets](https://github.com/bisonai/awesome-edge-machine-learning#datasets)
 - [Inference Engines](https://github.com/bisonai/awesome-edge-machine-learning#inference-engines)
@@ -38,6 +39,10 @@ Federated Learning enables mobile phones to collaboratively learn a shared predi
 
 ### [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)
 Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations.<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>
+
+
+### [Others](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Others)
+This section contains papers that are related to edge machine learning but are not part of any major group. These papers often deal with deployment issues (i.e. optimizing inference on target platform).
 
 
 ### [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)

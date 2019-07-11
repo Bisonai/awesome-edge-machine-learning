@@ -36,4 +36,9 @@
   description: >
     Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
+-
+  name: Others
+  description: >
+    This section contains papers that are related to edge machine learning but are not part of any major group. These papers often deal with deployment issues (i.e. optimizing inference on target platform).
+
 ...

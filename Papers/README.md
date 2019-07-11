@@ -75,6 +75,12 @@ Pruning is a common method to derive a compact network – after training, some 
 
 - [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635). Jonathan Frankle, Michael Carbin
 
+## Others
+
+This section contains papers that are related to edge machine learning but are not part of any major group. These papers often deal with deployment issues (i.e. optimizing inference on target platform).
+
+- [On-Device Neural Net Inference with Mobile GPUs](https://arxiv.org/abs/1907.01989). Juhyun Lee, Nikolay Chirkov, Ekaterina Ignasheva, Yury Pisarchyk, Mogan Shieh, Fabio Riccardi, Raman Sarokin, Andrei Kulik, Matthias Grundmann
+
 ## Quantization
 
 Quantization is the process of reducing a precision (from 32 bit floating point into lower bit depth representations) of weights and/or activations in a neural network. The advantages of this method are reduced model size and faster model inference on hardware that support arithmetic operations in lower precision.
