@@ -5,6 +5,10 @@
 
 There is a countless number of possible edge machine learning applications. Here, we collect papers that describe specific solutions.
 
+- [Temporal Convolution for Real-time Keyword Spotting on Mobile Devices](https://arxiv.org/abs/1904.03814). Seungwoo Choi, Seokjun Seo, Beomjun Shin, Hyeongmin Byun, Martin Kersner, Beomsu Kim, Dongyoung Kim, Sungjoo Ha
+
+- [Towards Real-Time Automatic Portrait Matting on Mobile Devices](https://arxiv.org/abs/1904.03816). Seokjun Seo, Seungwoo Choi, Martin Kersner, Beomjun Shin, Hyungsuk Yoon, Hyeongmin Byun, Sungjoo Ha
+
 - [PFLD: A Practical Facial Landmark Detector](https://arxiv.org/abs/1902.10859). Xiaojie Guo, Siyuan Li, Jinke Yu, Jiawan Zhang, Jiayi Ma, Lin Ma, Wei Liu, Haibin Ling
 
 ## AutoML
