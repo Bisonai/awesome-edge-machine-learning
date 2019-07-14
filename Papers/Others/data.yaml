@@ -17,6 +17,17 @@
 
 -
   name: >
+    Machine Learning at Facebook:Understanding Inference at the Edge
+  url: https://research.fb.com/wp-content/uploads/2018/12/Machine-Learning-at-Facebook-Understanding-Inference-at-the-Edge.pdf
+  date: 2018/12/01
+  conference:
+  code:
+  authors: Carole-Jean Wu, David Brooks, Kevin Chen, Douglas Chen, Sy Choudhury, Marat Dukhan,Kim Hazelwood, Eldad Isaac, Yangqing Jia, Bill Jia, Tommer Leyvand, Hao Lu, Yang Lu, Lin Qiao,Brandon Reagen, Joe Spisak, Fei Sun, Andrew Tulloch, Peter Vajda, Xiaodong Wang,Yanghan Wang, Bram Wasti, Yiming Wu, Ran Xian, Sungjoo Yoo, Peizhao Zhang
+  abstract: >
+    At Facebook, machine learning provides a wide range ofcapabilities that drive many aspects of user experienceincluding ranking posts, content understanding, objectdetection and tracking for augmented and virtual real-ity, speech and text translations.  While machine learn-ing  models  are  currently  trained  on  customized  data-center infrastructure, Facebook is working to bring ma-chine learning inference to the edge.  By doing so, userexperience is improved with reduced latency (inferencetime) and becomes less dependent on network connec-tivity.  Furthermore, this also enables many more appli-cations  of  deep  learning  with  important  features  onlymade available at the edge.  This paper takes a data-driven  approach  to  present  the  opportunities  and  de-sign  challenges  faced  by  Facebook  in  order  to  enablemachine learning inference locally on smartphones andother edge platforms.
+
+-
+  name: >
     On-Device Neural Net Inference with Mobile GPUs
   url: https://arxiv.org/abs/1907.01989
   date: 2019/07/03
