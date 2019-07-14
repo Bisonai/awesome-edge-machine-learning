@@ -57,6 +57,15 @@ Visual Wake Words represents a common microcontroller vision use-case of identif
 ## Inference Engines
 List of machine learning inference engines and APIs that are optimized for execution and/or training on edge devices.
 
+### Arm Compute Library
+- Source code: [https://github.com/ARM-software/ComputeLibrary](https://github.com/ARM-software/ComputeLibrary)
+- Arm
+
+### Bender
+- Source code: [https://github.com/xmartlabs/Bender](https://github.com/xmartlabs/Bender)
+- Documentation: [https://xmartlabs.github.io/Bender/](https://xmartlabs.github.io/Bender/)
+- Xmartlabs
+
 ### Caffe 2
 - Source code: [https://github.com/pytorch/pytorch/tree/master/caffe2](https://github.com/pytorch/pytorch/tree/master/caffe2)
 - Documentation: [https://caffe2.ai/](https://caffe2.ai/)
@@ -70,9 +79,19 @@ List of machine learning inference engines and APIs that are optimized for execu
 - Documentation: [https://deeplearning4j.org/docs/latest/deeplearning4j-android](https://deeplearning4j.org/docs/latest/deeplearning4j-android)
 - Skymind
 
+### Embedded Learning Library
+- Source code: [https://github.com/Microsoft/ELL](https://github.com/Microsoft/ELL)
+- Documentation: [https://microsoft.github.io/ELL](https://microsoft.github.io/ELL)
+- Microsoft
+
 ### Feather CNN
 - Source code: [https://github.com/Tencent/FeatherCNN](https://github.com/Tencent/FeatherCNN)
 - Tencent
+
+### MACE
+- Source code: [https://github.com/XiaoMi/mace](https://github.com/XiaoMi/mace)
+- Documentation: [https://mace.readthedocs.io/](https://mace.readthedocs.io/)
+- XiaoMi
 
 ### MNN
 - Source code: [https://github.com/alibaba/MNN](https://github.com/alibaba/MNN)
@@ -94,10 +113,22 @@ List of machine learning inference engines and APIs that are optimized for execu
 - Source code: [https://github.com/PaddlePaddle/paddle-mobile](https://github.com/PaddlePaddle/paddle-mobile)
 - Baidu
 
+### Qualcomm Neural Processing SDK for AI
+- Source code: [https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk)
+- Qualcomm
+
+### Tengine
+- Source code: [https://github.com/OAID/Tengine](https://github.com/OAID/Tengine)
+- OAID
+
 ### TensorFlow Lite
 - Source code: [https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite)
 - Documentation: [https://www.tensorflow.org/lite/](https://www.tensorflow.org/lite/)
 - Google
+
+### dabnn
+- Source code: [https://github.com/JDAI-CV/dabnn](https://github.com/JDAI-CV/dabnn)
+- JDAI Computer Vision
 
 ## Books
 List of books with focus on on-device (e.g., edge or mobile) machine learning.
@@ -114,6 +145,10 @@ List of books with focus on on-device (e.g., edge or mobile) machine learning.
 - Author: Matthijs Hollemans
 - Published: 2018
 
+### [Building Mobile Applications with TensorFlow](https://www.oreilly.com/library/view/building-mobile-applications/9781491988435/)
+- Author: Pete Warden
+- Published: 2017
+
 ## Challenges
 ### [Low Power Recognition Challenge (LPIRC)](https://rebootingcomputing.ieee.org/lpirc)
 Competition with focus on the best vision solutions that can simultaneously achieve high accuracy in computer vision and energy efficiency. LPIRC is regularly held during computer vision conferences (CVPR, ICCV and others) since 2015 and the winners’ solutions have already improved 24 times in the ratio of accuracy divided by energy.
@@ -124,13 +159,25 @@ Competition with focus on the best vision solutions that can simultaneously achi
 
 
 ## Other Resources
+### [Awesome EMDL](https://github.com/EMDL/awesome-emdl)
+
+Embedded and mobile deep learning research resources
+
 ### [Awesome Mobile Machine Learning](https://github.com/fritzlabs/Awesome-Mobile-Machine-Learning)
 
-A curated list of awesome mobile machine learning resources for iOS, Android, and edge devices.
+A curated list of awesome mobile machine learning resources for iOS, Android, and edge devices
+
+### [Awesome Pruning](https://github.com/he-y/Awesome-Pruning)
+
+A curated list of neural network pruning resources
+
+### [Efficient DNNs](https://github.com/MingSun-Tse/EfficientDNNs)
+
+Collection of recent methods on DNN compression and acceleration
 
 ### [Machine Think](https://machinethink.net/)
 
-Machine learning tutorials targeted for iOS devices.
+Machine learning tutorials targeted for iOS devices
 
 ### [Pete Warden's blog](https://petewarden.com/)
 

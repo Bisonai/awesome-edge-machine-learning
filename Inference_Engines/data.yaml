@@ -1,12 +1,72 @@
 # INFERENCE ENGINES
-
-# name:
-# company:
-# sourcecode:
-# documentation:
-# platform:
-# gpu:
+#
+# [Template]
+#
+# -
+#     name:
+#     company:
+#     sourcecode:
+#     documentation:
+#     platform:
+#     gpu:
 ---
+
+-
+    name: Arm Compute Library
+    company: Arm
+    sourcecode: https://github.com/ARM-software/ComputeLibrary
+    documentation:
+    platform:
+    gpu:
+
+-
+    name: Qualcomm Neural Processing SDK for AI
+    company: Qualcomm
+    sourcecode: https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk
+    documentation:
+    platform: Android
+    gpu: true
+
+-
+    name: Embedded Learning Library
+    company: Microsoft
+    sourcecode: https://github.com/Microsoft/ELL
+    documentation: https://microsoft.github.io/ELL
+    platform: Raspberry Pi, Arduino, micro:bit
+    gpu: false
+
+-
+    name: Bender
+    company: Xmartlabs
+    sourcecode: https://github.com/xmartlabs/Bender
+    documentation: https://xmartlabs.github.io/Bender/
+    platform: iOS
+    gpu: true
+
+-
+    name: dabnn
+    company: JDAI Computer Vision
+    sourcecode: https://github.com/JDAI-CV/dabnn
+    documentation:
+    platform: Android
+    gpu:
+
+-
+    name: Tengine
+    company: OAID
+    sourcecode: https://github.com/OAID/Tengine
+    documentation:
+    platform: Android
+    gpu: true
+
+-
+    name: MACE
+    company: XiaoMi
+    sourcecode: https://github.com/XiaoMi/mace
+    documentation: https://mace.readthedocs.io/
+    platform: Android, iOS
+    gpu:
+
 -
     name: MNN
     company: Alibaba
@@ -14,6 +74,7 @@
     documentation:
     platform:
     gpu:
+
 -
     name: Feather CNN
     company: Tencent
@@ -21,6 +82,7 @@
     documentation:
     platform:
     gpu:
+
 -
     name: NCNN
     company: Tencent
@@ -28,6 +90,7 @@
     documentation:
     platform: iOS, Android
     gpu: true
+
 -
     name: Paddle Mobile
     company: Baidu
@@ -35,6 +98,7 @@
     documentation:
     platform:
     gpu:
+
 -
     name: MXNet
     company: Amazon
@@ -42,6 +106,7 @@
     documentation: https://mxnet.incubator.apache.org/versions/master/faq/smart_device.html
     platform:
     gpu:
+
 -
     name: TensorFlow Lite
     company: Google
@@ -49,6 +114,7 @@
     documentation: https://www.tensorflow.org/lite/
     platform: Android, iOS
     gpu: true
+
 -
     name: Caffe 2
     company: Facebook
@@ -56,6 +122,7 @@
     documentation: https://caffe2.ai/
     platform:
     gpu:
+
 -
     name: CoreML
     company: Apple
@@ -63,6 +130,7 @@
     documentation: https://developer.apple.com/documentation/coreml
     platform: iOS
     gpu: true
+
 -
     name: Neural Networks API
     company: Google
@@ -70,6 +138,7 @@
     documentation: https://developer.android.com/ndk/guides/neuralnetworks/
     platform:
     gpu: true
+
 -
     name: Deeplearning4j
     company: Skymind
@@ -77,4 +146,5 @@
     documentation: https://deeplearning4j.org/docs/latest/deeplearning4j-android
     platform:
     gpu:
+
 ...

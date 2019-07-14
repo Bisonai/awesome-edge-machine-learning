@@ -1,6 +1,7 @@
 # BOOKS
 #
 # [Template]
+#
 # -
 #   title:
 #   subtitle:
@@ -9,6 +10,15 @@
 #   url:
 #   published:
 ---
+
+-
+  title: Building Mobile Applications with TensorFlow
+  subtitle:
+  authors:
+    - Pete Warden
+  url: https://www.oreilly.com/library/view/building-mobile-applications/9781491988435/
+  published: 2017
+
 -
   title: Machine Learning by Tutorials
   subtitle: Beginning machine learning for Apple and iOS
@@ -16,6 +26,7 @@
     - Matthijs Hollemans
   url: https://store.raywenderlich.com/products/machine-learning-by-tutorials
   published: 2019
+
 -
   title: Core ML Survival Guide
   subtitle:
@@ -23,6 +34,7 @@
     - Matthijs Hollemans
   url: https://leanpub.com/coreml-survival-guide
   published: 2018
+
 -
   title: TinyML
   subtitle: Machine Learning with TensorFlow on Arduino, and Ultra-Low Power Micro-Controllers
@@ -31,4 +43,5 @@
     - Daniel Situnayake
   url: http://shop.oreilly.com/product/0636920254508.do
   published: 2020
+
 ...

@@ -17,6 +17,28 @@
 
 -
   name: >
+    DeepRebirth: Accelerating Deep Neural Network Execution on Mobile Devices
+  url: https://arxiv.org/abs/1708.04728
+  date: 2017/08/16
+  conference: AAAI 2018
+  code:
+  authors: Dawei Li, Xiaolong Wang, Deguang Kong
+  abstract: >
+    Deploying deep neural networks on mobile devices is a challenging task. Current model compression methods such as matrix decomposition effectively reduce the deployed model size, but still cannot satisfy real-time processing requirement. This paper first discovers that the major obstacle is the excessive execution time of non-tensor layers such as pooling and normalization without tensor-like trainable parameters. This motivates us to design a novel acceleration framework: DeepRebirth through "slimming" existing consecutive and parallel non-tensor and tensor layers. The layer slimming is executed at different substructures: (a) streamline slimming by merging the consecutive non-tensor and tensor layer vertically; (b) branch slimming by merging non-tensor and tensor branches horizontally. The proposed optimization operations significantly accelerate the model execution and also greatly reduce the run-time memory cost since the slimmed model architecture contains less hidden layers. To maximally avoid accuracy loss, the parameters in new generated layers are learned with layer-wise fine-tuning based on both theoretical analysis and empirical verification. As observed in the experiment, DeepRebirth achieves more than 3x speed-up and 2.5x run-time memory saving on GoogLeNet with only 0.4% drop of top-5 accuracy on ImageNet. Furthermore, by combining with other model compression techniques, DeepRebirth offers an average of 65ms inference time on the CPU of Samsung Galaxy S6 with 86.5% top-5 accuracy, 14% faster than SqueezeNet which only has a top-5 accuracy of 80.5%.
+
+-
+  name: >
+    CondenseNet: An Efficient DenseNet using Learned Group Convolutions
+  url: https://arxiv.org/abs/1711.09224
+  date: 2017/11/25
+  conference:
+  code:
+  authors: Gao Huang, Shichen Liu, Laurens van der Maaten, Kilian Q. Weinberger
+  abstract: >
+    Deep neural networks are increasingly used on mobile devices, where computational resources are limited. In this paper we develop CondenseNet, a novel network architecture with unprecedented efficiency. It combines dense connectivity with a novel module called learned group convolution. The dense connectivity facilitates feature re-use in the network, whereas learned group convolutions remove connections between layers for which this feature re-use is superfluous. At test time, our model can be implemented using standard group convolutions, allowing for efficient computation in practice. Our experiments show that CondenseNets are far more efficient than state-of-the-art compact convolutional networks such as MobileNets and ShuffleNets.
+
+-
+  name: >
    Butterfly Transform: An Efficient FFT Based Neural Architecture Design
   url: https://arxiv.org/abs/1906.02256
   date: 2019/06/05
