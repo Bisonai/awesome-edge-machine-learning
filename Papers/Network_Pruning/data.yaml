@@ -17,6 +17,17 @@
 
 -
   name: >
+    Discrimination-aware Channel Pruning for Deep Neural Networks
+  url: https://arxiv.org/abs/1810.11809
+  date: 2018/10/28
+  conference: NeurIPS 2018
+  code:
+  authors: Zhuangwei Zhuang, Mingkui Tan, Bohan Zhuang, Jing Liu, Yong Guo, Qingyao Wu, Junzhou Huang, Jinhui Zhu
+  abstract: >
+     Channel pruning is one of the predominant approaches for deep model compression. Existing pruning methods either train from scratch with sparsity constraints on channels, or minimize the reconstruction error between the pre-trained feature maps and the compressed ones. Both strategies suffer from some limitations: the former kind is computationally expensive and difficult to converge, whilst the latter kind optimizes the reconstruction error but ignores the discriminative power of channels. To overcome these drawbacks, we investigate a simple-yet-effective method, called discrimination-aware channel pruning, to choose those channels that really contribute to discriminative power. To this end, we introduce additional losses into the network to increase the discriminative power of intermediate layers and then select the most discriminative channels for each layer by considering the additional loss and the reconstruction error. Last, we propose a greedy algorithm to conduct channel selection and parameter optimization in an iterative way. Extensive experiments demonstrate the effectiveness of our method. For example, on ILSVRC-12, our pruned ResNet-50 with 30% reduction of channels even outperforms the original model by 0.39% in top-1 accuracy.
+
+-
+  name: >
     Channel Pruning for Accelerating Very Deep Neural Networks
   url: https://arxiv.org/abs/1707.06168
   date: 2017/07/19
