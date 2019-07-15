@@ -17,6 +17,18 @@
 
 -
   name: >
+    Rethinking the Value of Network Pruning
+  url: https://arxiv.org/abs/1810.05270
+  date: 2018/10/11
+  conference: ICLR 2019
+  code:
+  authors: Zhuang Liu, Mingjie Sun, Tinghui Zhou, Gao Huang, Trevor Darrell
+  abstract: >
+    Network pruning is widely used for reducing the heavy inference cost of deep models in low-resource settings. A typical pruning algorithm is a three-stage pipeline, i.e., training (a large model), pruning and fine-tuning. During pruning, according to a certain criterion, redundant weights are pruned and important weights are kept to best preserve the accuracy. In this work, we make several surprising observations which contradict common beliefs. For all state-of-the-art structured pruning algorithms we examined, fine-tuning a pruned model only gives comparable or worse performance than training that model with randomly initialized weights. For pruning algorithms which assume a predefined target network architecture, one can get rid of the full pipeline and directly train the target network from scratch. Our observations are consistent for multiple network architectures, datasets, and tasks, which imply that: 1) training a large, over-parameterized model is often not necessary to obtain an efficient final model, 2) learned "important" weights of the large model are typically not useful for the small pruned model, 3) the pruned architecture itself, rather than a set of inherited "important" weights, is more crucial to the efficiency in the final model, which suggests that in some cases pruning can be useful as an architecture search paradigm. Our results suggest the need for more careful baseline evaluations in future research on structured pruning methods. We also compare with the "Lottery Ticket Hypothesis" (Frankle & Carbin 2019), and find that with optimal learning rate, the "winning ticket" initialization as used in Frankle & Carbin (2019) does not bring improvement over random initialization.
+
+
+-
+  name: >
     Discrimination-aware Channel Pruning for Deep Neural Networks
   url: https://arxiv.org/abs/1810.11809
   date: 2018/10/28

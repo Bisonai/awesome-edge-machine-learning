@@ -83,6 +83,8 @@ Pruning is a common method to derive a compact network – after training, some 
 
 - [Discrimination-aware Channel Pruning for Deep Neural Networks](https://arxiv.org/abs/1810.11809). Zhuangwei Zhuang, Mingkui Tan, Bohan Zhuang, Jing Liu, Yong Guo, Qingyao Wu, Junzhou Huang, Jinhui Zhu
 
+- [Rethinking the Value of Network Pruning](https://arxiv.org/abs/1810.05270). Zhuang Liu, Mingjie Sun, Tinghui Zhou, Gao Huang, Trevor Darrell
+
 - [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635). Jonathan Frankle, Michael Carbin
 
 - [To prune, or not to prune: exploring the efficacy of pruning for model compression](https://arxiv.org/abs/1710.01878). Michael Zhu, Suyog Gupta
