@@ -17,6 +17,17 @@
 
 -
   name: >
+    Channel Pruning for Accelerating Very Deep Neural Networks
+  url: https://arxiv.org/abs/1707.06168
+  date: 2017/07/19
+  conference: ICCV 2017
+  code:
+  authors: Yihui He, Xiangyu Zhang, Jian Sun
+  abstract: >
+    In this paper, we introduce a new channel pruning method to accelerate very deep convolutional neural networks.Given a trained CNN model, we propose an iterative two-step algorithm to effectively prune each layer, by a LASSO regression based channel selection and least square reconstruction. We further generalize this algorithm to multi-layer and multi-branch cases. Our method reduces the accumulated error and enhance the compatibility with various architectures. Our pruned VGG-16 achieves the state-of-the-art results by 5x speed-up along with only 0.3% increase of error. More importantly, our method is able to accelerate modern networks like ResNet, Xception and suffers only 1.4%, 1.0% accuracy loss under 2x speed-up respectively, which is significant. Code has been made publicly available.
+
+-
+  name: >
     To prune, or not to prune: exploring the efficacy of pruning for model compression
   url: https://arxiv.org/abs/1710.01878
   date: 2017/10/05

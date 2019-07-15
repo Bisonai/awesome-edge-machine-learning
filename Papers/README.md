@@ -85,6 +85,8 @@ Pruning is a common method to derive a compact network – after training, some 
 
 - [To prune, or not to prune: exploring the efficacy of pruning for model compression](https://arxiv.org/abs/1710.01878). Michael Zhu, Suyog Gupta
 
+- [Channel Pruning for Accelerating Very Deep Neural Networks](https://arxiv.org/abs/1707.06168). Yihui He, Xiangyu Zhang, Jian Sun
+
 ## Others
 
 This section contains papers that are related to edge machine learning but are not part of any major group. These papers often deal with deployment issues (i.e. optimizing inference on target platform).
