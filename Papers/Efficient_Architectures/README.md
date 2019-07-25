@@ -6,6 +6,11 @@
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
 
+## [MixNet: Mixed Depthwise Convolutional Kernels](https://arxiv.org/abs/1907.09595), 2019/07
+Mingxing Tan, Quoc V. Le
+
+Depthwise convolution is becoming increasingly popular in modern efficient ConvNets, but its kernel size is often overlooked. In this paper, we systematically study the impact of different kernel sizes, and observe that combining the benefits of multiple kernel sizes can lead to better accuracy and efficiency. Based on this observation, we propose a new mixed depthwise convolution (MDConv), which naturally mixes up multiple kernel sizes in a single convolution. As a simple drop-in replacement of vanilla depthwise convolution, our MDConv improves the accuracy and efficiency for existing MobileNets on both ImageNet classification and COCO object detection. By integrating MDConv into AutoML search space, we have further developed a new family of models, named as MixNets, which significantly outperform previous models including MobileNetV2 [19] (ImageNet top-1 accuracy +4.2%), ShuffleNetV2 [15] (+3.5%), MnasNet [25] (+1.3%), ProxylessNAS [2] (+2.2%), and FBNet [26] (+2.0%). In particular, our MixNet-L achieves a new state-of-the-art 78.9% ImageNet top-1 accuracy under typical mobile settings (<600M FLOPS). Code is at this [URL](https://github.com/tensorflow/tpu/tree/master/models/official/mnasnet/mixnet).
+
 ## [Butterfly Transform: An Efficient FFT Based Neural Architecture Design](https://arxiv.org/abs/1906.02256), 2019/06
 Keivan Alizadeh, Ali Farhadi, Mohammad Rastegari
 
