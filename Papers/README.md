@@ -105,6 +105,8 @@ This section contains papers that are related to edge machine learning but are n
 
 Quantization is the process of reducing a precision (from 32 bit floating point into lower bit depth representations) of weights and/or activations in a neural network. The advantages of this method are reduced model size and faster model inference on hardware that support arithmetic operations in lower precision.
 
+- [And the Bit Goes Down: Revisiting the Quantization of Neural Networks](https://arxiv.org/abs/1907.05686). Pierre Stock, Armand Joulin, Rémi Gribonval, Benjamin Graham, Hervé Jégou
+
 - [Data-Free Quantization through Weight Equalization and Bias Correction](https://arxiv.org/abs/1906.04721). Markus Nagel, Mart van Baalen, Tijmen Blankevoort, Max Welling
 
 - [Quantizing deep convolutional networks for efficient inference: A whitepaper](https://arxiv.org/abs/1806.08342). Raghuraman Krishnamoorthi

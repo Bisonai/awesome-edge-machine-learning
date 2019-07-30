@@ -6,6 +6,12 @@
 Quantization is the process of reducing a precision (from 32 bit floating point into lower bit depth representations) of weights and/or activations in a neural network. The advantages of this method are reduced model size and faster model inference on hardware that support arithmetic operations in lower precision.
 
 
+## [And the Bit Goes Down: Revisiting the Quantization of Neural Networks](https://arxiv.org/abs/1907.05686), 2019/07
+Pierre Stock, Armand Joulin, Rémi Gribonval, Benjamin Graham, Hervé Jégou
+
+In this paper, we address the problem of reducing the memory footprint of ResNet-like convolutional network architectures. We introduce a vector quantization method that aims at preserving the quality of the reconstruction of the network outputs and not its weights. The advantage of our approach is that it minimizes the loss reconstruction error for in-domain inputs and does not require any labelled data. We also use byte-aligned codebooks to produce compressed networks with efficient inference on CPU. We validate our approach by quantizing a high performing ResNet-50 model to a memory size of 5 MB (20x compression factor) while preserving a top-1 accuracy of 76.1% on ImageNet object classification and by compressing a Mask R-CNN with a size budget around 6 MB.
+
+
 ## [Data-Free Quantization through Weight Equalization and Bias Correction](https://arxiv.org/abs/1906.04721), 2019/06
 Markus Nagel, Mart van Baalen, Tijmen Blankevoort, Max Welling
 
