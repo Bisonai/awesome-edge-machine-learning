@@ -17,6 +17,17 @@
 
 -
   name: >
+    Efficient On-Device Models using Neural Projections
+  url: http://proceedings.mlr.press/v97/ravi19a/ravi19a.pdf
+  date: 2019/06/09
+  conference: ICML 2019
+  code:
+  authors: Sujith Ravi
+  abstract: >
+    Many applications involving visual and language understanding can be effectively solved using deep neural networks. Even though these techniques achieve state-of-the-art results, it is very challenging to apply them on devices with limited memory and computational capacity such as mobile phones, smart watches and IoT. We propose a neural projection approach for training compact on-device neural networks. We introduce projection networks that use locality-sensitive projections to generate compact binary representations and learn small neural networks with computationally efficient operations. We design a joint optimization framework where the projection network can be trained from scratch or leverage existing larger neural networks such as feed-forward NNs, CNNs or RNNs. The trained neural projection network can be directly used for inference on device at low memory and computation cost. We demonstrate the effectiveness of this as a general-purpose approach for significantly shrinking memory requirements of different types of neural networks while preserving good accuracy on multiple visual and text classification tasks.
+
+-
+  name: >
     MixNet: Mixed Depthwise Convolutional Kernels
   url: https://arxiv.org/abs/1907.09595
   date: 2019/07/22

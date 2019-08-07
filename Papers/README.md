@@ -35,6 +35,8 @@ Efficient architectures represent neural networks with small memory footprint an
 
 - [MixNet: Mixed Depthwise Convolutional Kernels](https://arxiv.org/abs/1907.09595). Mingxing Tan, Quoc V. Le
 
+- [Efficient On-Device Models using Neural Projections](http://proceedings.mlr.press/v97/ravi19a/ravi19a.pdf). Sujith Ravi
+
 - [Butterfly Transform: An Efficient FFT Based Neural Architecture Design](https://arxiv.org/abs/1906.02256). Keivan Alizadeh, Ali Farhadi, Mohammad Rastegari
 
 - [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946). Mingxing Tan, Quoc V. Le
