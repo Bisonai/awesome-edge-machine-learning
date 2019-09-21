@@ -9,6 +9,7 @@ A curated list of awesome edge machine learning resources, including research pa
 	- [AutoML](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/AutoML)
 	- [Efficient Architectures](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Efficient_Architectures)
 	- [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
+	- [ML Algorithms For Edge](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/ML_Algorithms_For_Edge)
 	- [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)
 	- [Others](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Others)
 	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
@@ -35,6 +36,10 @@ Efficient architectures represent neural networks with small memory footprint an
 
 ### [Federated Learning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Federated_Learning)
 Federated Learning enables mobile phones to collaboratively learn a shared prediction model while keeping all the training data on device, decoupling the ability to do machine learning from the need to store the data in the cloud.<sup><a href="https://ai.googleblog.com/2017/04/federated-learning-collaborative.html" target="_blank">Google AI blog: Federated Learning</a></sup>
+
+
+### [ML Algorithms For Edge](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/ML_Algorithms_For_Edge)
+Standard machine learning algorithms are not always able to run on edge devices due to large computational requirements and space complexity. This section introduces optimized machine learning algorithms.
 
 
 ### [Network Pruning](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Network_Pruning)

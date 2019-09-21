@@ -36,6 +36,10 @@
   description: >
     Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
+- name: ML Algorithms For Edge
+  description: >
+    Standard machine learning algorithms are not always able to run on edge devices due to large computational requirements and space complexity. This section introduces optimized machine learning algorithms.
+
 -
   name: Others
   description: >
