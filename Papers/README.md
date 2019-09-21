@@ -75,6 +75,8 @@ Standard machine learning algorithms are not always able to run on edge devices 
 
 - [ProtoNN: Compressed and Accurate kNN for Resource-scarce Devices](http://proceedings.mlr.press/v70/gupta17a.html). Chirag Gupta, Arun Sai Suggala, Ankit Goyal, Harsha Vardhan Simhadri, Bhargavi Paranjape, Ashish Kumar, Saurabh Goyal, Raghavendra Udupa, Manik Varma, Prateek Jain
 
+- [Resource-efficient Machine Learning in 2 KB RAM for the Internet of Things](http://proceedings.mlr.press/v70/kumar17a.html). Ashish Kumar, Saurabh Goyal, Manik Varma
+
 ## Network Pruning
 
 Pruning is a common method to derive a compact network – after training, some structural portion of the parameters is removed, along with its associated computations.<sup><a href="http://jankautz.com/publications/Importance4NNPruning_CVPR19.pdf" target="_blank">Importance Estimation for Neural Network Pruning</a></sup>
