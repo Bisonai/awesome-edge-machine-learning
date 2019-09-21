@@ -51,6 +51,8 @@ Efficient architectures represent neural networks with small memory footprint an
 
 - [CondenseNet: An Efficient DenseNet using Learned Group Convolutions](https://arxiv.org/abs/1711.09224). Gao Huang, Shichen Liu, Laurens van der Maaten, Kilian Q. Weinberger
 
+- [BranchyNet: Fast Inference via Early Exiting from Deep Neural Networks](https://arxiv.org/abs/1709.01686). Surat Teerapittayanon, Bradley McDanel, H.T. Kung
+
 - [DeepRebirth: Accelerating Deep Neural Network Execution on Mobile Devices](https://arxiv.org/abs/1708.04728). Dawei Li, Xiaolong Wang, Deguang Kong
 
 - [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/abs/1707.01083). Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun
