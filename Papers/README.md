@@ -111,6 +111,8 @@ Pruning is a common method to derive a compact network – after training, some 
 
 This section contains papers that are related to edge machine learning but are not part of any major group. These papers often deal with deployment issues (i.e. optimizing inference on target platform).
 
+- [Distributed Machine Learning on Mobile Devices: A Survey](https://arxiv.org/abs/1909.08329). Renjie Gu, Shuo Yang, Fan Wu
+
 - [Machine Learning at the Network Edge: A Survey](https://arxiv.org/abs/1908.00080). M.G. Sarwar Murshed, Christopher Murphy, Daqing Hou, Nazar Khan, Ganesh Ananthanarayanan, Faraz Hussain
 
 - [Convergence of Edge Computing and Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/1907.08349). Yiwen Han, Xiaofei Wang, Victor C.M. Leung, Dusit Niyato, Xueqiang Yan, Xu Chen

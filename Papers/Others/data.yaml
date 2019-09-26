@@ -70,4 +70,14 @@
   abstract: >
     Devices comprising the Internet of Things, such as sensors and small cameras, usually have small memories and limited computational power. The proliferation of such resource-constrained devices in recent years has led to the generation of large quantities of data. These data-producing devices are appealing targets for machine learning applications but struggle to run machine learning algorithms due to their limited computing capability. They typically offload input data to external computing systems (such as cloud servers) for further processing. The results of the machine learning computations are communicated back to the resource-scarce devices, but this worsens latency, leads to increased communication costs, and adds to privacy concerns. Therefore, efforts have been made to place additional computing devices at the edge of the network, i.e close to the IoT devices where the data is generated. Deploying machine learning systems on such edge devices alleviates the above issues by allowing computations to be performed close to the data sources. This survey describes major research efforts where machine learning has been deployed at the edge of computer networks.
 
+-
+  name: >
+    Distributed Machine Learning on Mobile Devices: A Survey
+  url: https://arxiv.org/abs/1909.08329
+  date: 2019/09/18
+  conference:
+  code:
+  authors: Renjie Gu, Shuo Yang, Fan Wu
+  abstract: >
+    In recent years, mobile devices have gained increasingly development with stronger computation capability and larger storage. Some of the computation-intensive machine learning and deep learning tasks can now be run on mobile devices. To take advantage of the resources available on mobile devices and preserve users' privacy, the idea of mobile distributed machine learning is proposed. It uses local hardware resources and local data to solve machine learning sub-problems on mobile devices, and only uploads computation results instead of original data to contribute to the optimization of the global model. This architecture can not only relieve computation and storage burden on servers, but also protect the users' sensitive information. Another benefit is the bandwidth reduction, as various kinds of local data can now participate in the training process without being uploaded to the server. In this paper, we provide a comprehensive survey on recent studies of mobile distributed machine learning. We survey a number of widely-used mobile distributed machine learning methods. We also present an in-depth discussion on the challenges and future directions in this area. We believe that this survey can demonstrate a clear overview of mobile distributed machine learning and provide guidelines on applying mobile distributed machine learning to real applications.
 ...

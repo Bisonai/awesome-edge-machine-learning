@@ -6,6 +6,12 @@
 This section contains papers that are related to edge machine learning but are not part of any major group. These papers often deal with deployment issues (i.e. optimizing inference on target platform).
 
 
+## [Distributed Machine Learning on Mobile Devices: A Survey](https://arxiv.org/abs/1909.08329), 2019/09
+Renjie Gu, Shuo Yang, Fan Wu
+
+In recent years, mobile devices have gained increasingly development with stronger computation capability and larger storage. Some of the computation-intensive machine learning and deep learning tasks can now be run on mobile devices. To take advantage of the resources available on mobile devices and preserve users' privacy, the idea of mobile distributed machine learning is proposed. It uses local hardware resources and local data to solve machine learning sub-problems on mobile devices, and only uploads computation results instead of original data to contribute to the optimization of the global model. This architecture can not only relieve computation and storage burden on servers, but also protect the users' sensitive information. Another benefit is the bandwidth reduction, as various kinds of local data can now participate in the training process without being uploaded to the server. In this paper, we provide a comprehensive survey on recent studies of mobile distributed machine learning. We survey a number of widely-used mobile distributed machine learning methods. We also present an in-depth discussion on the challenges and future directions in this area. We believe that this survey can demonstrate a clear overview of mobile distributed machine learning and provide guidelines on applying mobile distributed machine learning to real applications.
+
+
 ## [Machine Learning at the Network Edge: A Survey](https://arxiv.org/abs/1908.00080), 2019/07
 M.G. Sarwar Murshed, Christopher Murphy, Daqing Hou, Nazar Khan, Ganesh Ananthanarayanan, Faraz Hussain
 
