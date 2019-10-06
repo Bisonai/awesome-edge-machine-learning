@@ -119,7 +119,11 @@ This section contains papers that are related to edge machine learning but are n
 
 - [On-Device Neural Net Inference with Mobile GPUs](https://arxiv.org/abs/1907.01989). Juhyun Lee, Nikolay Chirkov, Ekaterina Ignasheva, Yury Pisarchyk, Mogan Shieh, Fabio Riccardi, Raman Sarokin, Andrei Kulik, Matthias Grundmann
 
+- [Edge Intelligence: Paving the Last Mile of Artificial Intelligence with Edge Computing](https://arxiv.org/abs/1905.10083). Zhi Zhou, Xu Chen, En Li, Liekang Zeng, Ke Luo, Junshan Zhang
+
 - [Deep Learning on Mobile Devices - A Review](https://arxiv.org/abs/1904.09274). Yunbin Deng
+
+- [Wireless Network Intelligence at the Edge](https://arxiv.org/abs/1812.02858). Jihong Park, Sumudu Samarakoon, Mehdi Bennis, Mérouane Debbah
 
 - [Machine Learning at Facebook:Understanding Inference at the Edge](https://research.fb.com/wp-content/uploads/2018/12/Machine-Learning-at-Facebook-Understanding-Inference-at-the-Edge.pdf). Carole-Jean Wu, David Brooks, Kevin Chen, Douglas Chen, Sy Choudhury, Marat Dukhan,Kim Hazelwood, Eldad Isaac, Yangqing Jia, Bill Jia, Tommer Leyvand, Hao Lu, Yang Lu, Lin Qiao,Brandon Reagen, Joe Spisak, Fei Sun, Andrew Tulloch, Peter Vajda, Xiaodong Wang,Yanghan Wang, Bram Wasti, Yiming Wu, Ran Xian, Sungjoo Yoo, Peizhao Zhang
 

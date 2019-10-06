@@ -80,4 +80,27 @@
   authors: Renjie Gu, Shuo Yang, Fan Wu
   abstract: >
     In recent years, mobile devices have gained increasingly development with stronger computation capability and larger storage. Some of the computation-intensive machine learning and deep learning tasks can now be run on mobile devices. To take advantage of the resources available on mobile devices and preserve users' privacy, the idea of mobile distributed machine learning is proposed. It uses local hardware resources and local data to solve machine learning sub-problems on mobile devices, and only uploads computation results instead of original data to contribute to the optimization of the global model. This architecture can not only relieve computation and storage burden on servers, but also protect the users' sensitive information. Another benefit is the bandwidth reduction, as various kinds of local data can now participate in the training process without being uploaded to the server. In this paper, we provide a comprehensive survey on recent studies of mobile distributed machine learning. We survey a number of widely-used mobile distributed machine learning methods. We also present an in-depth discussion on the challenges and future directions in this area. We believe that this survey can demonstrate a clear overview of mobile distributed machine learning and provide guidelines on applying mobile distributed machine learning to real applications.
+
+-
+  name: >
+    Edge Intelligence: Paving the Last Mile of Artificial Intelligence with Edge Computing
+  url: https://arxiv.org/abs/1905.10083
+  date: 2019/05/24
+  conference:
+  code:
+  authors: Zhi Zhou, Xu Chen, En Li, Liekang Zeng, Ke Luo, Junshan Zhang
+  abstract: >
+    With the breakthroughs in deep learning, the recent years have witnessed a booming of artificial intelligence (AI) applications and services, spanning from personal assistant to recommendation systems to video/audio surveillance. More recently, with the proliferation of mobile computing and Internet-of-Things (IoT), billions of mobile and IoT devices are connected to the Internet, generating zillions Bytes of data at the network edge. Driving by this trend, there is an urgent need to push the AI frontiers to the network edge so as to fully unleash the potential of the edge big data. To meet this demand, edge computing, an emerging paradigm that pushes computing tasks and services from the network core to the network edge, has been widely recognized as a promising solution. The resulted new inter-discipline, edge AI or edge intelligence, is beginning to receive a tremendous amount of interest. However, research on edge intelligence is still in its infancy stage, and a dedicated venue for exchanging the recent advances of edge intelligence is highly desired by both the computer system and artificial intelligence communities. To this end, we conduct a comprehensive survey of the recent research efforts on edge intelligence. Specifically, we first review the background and motivation for artificial intelligence running at the network edge. We then provide an overview of the overarching architectures, frameworks and emerging key technologies for deep learning model towards training/inference at the network edge. Finally, we discuss future research opportunities on edge intelligence. We believe that this survey will elicit escalating attentions, stimulate fruitful discussions and inspire further research ideas on edge intelligence.
+
+-
+  name: >
+    Wireless Network Intelligence at the Edge
+  url: https://arxiv.org/abs/1812.02858
+  date: 2018/12/07
+  conference:
+  code:
+  authors: Jihong Park, Sumudu Samarakoon, Mehdi Bennis, Mérouane Debbah
+  abstract: >
+    Fueled by the availability of more data and computing power, recent breakthroughs in cloud-based machine learning (ML) have transformed every aspect of our lives from face recognition and medical diagnosis to natural language processing. However, classical ML exerts severe demands in terms of energy, memory and computing resources, limiting their adoption for resource constrained edge devices. The new breed of intelligent devices and high-stake applications (drones, augmented/virtual reality, autonomous systems, etc.), requires a novel paradigm change calling for distributed, low-latency and reliable ML at the wireless network edge (referred to as edge ML). In edge ML, training data is unevenly distributed over a large number of edge nodes, which have access to a tiny fraction of the data. Moreover training and inference is carried out collectively over wireless links, where edge devices communicate and exchange their learned models (not their private data). In a first of its kind, this article explores key building blocks of edge ML, different neural network architectural splits and their inherent tradeoffs, as well as theoretical and technical enablers stemming from a wide range of mathematical disciplines. Finally, several case studies pertaining to various high-stake applications are presented demonstrating the effectiveness of edge ML in unlocking the full potential of 5G and beyond.
+
 ...
