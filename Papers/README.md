@@ -77,6 +77,8 @@ Federated Learning enables mobile phones to collaboratively learn a shared predi
 
 Standard machine learning algorithms are not always able to run on edge devices due to large computational requirements and space complexity. This section introduces optimized machine learning algorithms.
 
+- [Shallow RNNs: A Method for Accurate Time-series Classification on Tiny Devices](https://dkdennis.xyz/static/sharnn-neurips19-paper.pdf). Don Dennis, Durmus Alp Emre Acar, Vikram Mandikal, Vinu Sankar Sadasivan, Harsha Vardhan Simhadri, Venkatesh Saligrama, Prateek Jain
+
 - [ProtoNN: Compressed and Accurate kNN for Resource-scarce Devices](http://proceedings.mlr.press/v70/gupta17a.html). Chirag Gupta, Arun Sai Suggala, Ankit Goyal, Harsha Vardhan Simhadri, Bhargavi Paranjape, Ashish Kumar, Saurabh Goyal, Raghavendra Udupa, Manik Varma, Prateek Jain
 
 - [Resource-efficient Machine Learning in 2 KB RAM for the Internet of Things](http://proceedings.mlr.press/v70/kumar17a.html). Ashish Kumar, Saurabh Goyal, Manik Varma
