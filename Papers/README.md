@@ -111,6 +111,8 @@ Pruning is a common method to derive a compact network – after training, some 
 
 - [To prune, or not to prune: exploring the efficacy of pruning for model compression](https://arxiv.org/abs/1710.01878). Michael Zhu, Suyog Gupta
 
+- [ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression](https://arxiv.org/abs/1707.06342). Jian-Hao Luo, Jianxin Wu, Weiyao Lin
+
 - [Channel Pruning for Accelerating Very Deep Neural Networks](https://arxiv.org/abs/1707.06168). Yihui He, Xiangyu Zhang, Jian Sun
 
 ## Others
