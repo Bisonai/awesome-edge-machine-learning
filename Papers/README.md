@@ -143,6 +143,8 @@ Quantization is the process of reducing a precision (from 32 bit floating point 
 
 - [Data-Free Quantization through Weight Equalization and Bias Correction](https://arxiv.org/abs/1906.04721). Markus Nagel, Mart van Baalen, Tijmen Blankevoort, Max Welling
 
+- [HAQ: Hardware-Aware Automated Quantization with Mixed Precision](https://arxiv.org/abs/1811.08886). Kuan Wang, Zhijian Liu, Yujun Lin, Ji Lin, Song Han
+
 - [Quantizing deep convolutional networks for efficient inference: A whitepaper](https://arxiv.org/abs/1806.08342). Raghuraman Krishnamoorthi
 
 - [A Quantization-Friendly Separable Convolution for MobileNets](https://arxiv.org/abs/1803.08607). Tao Sheng, Chen Feng, Shaojie Zhuo, Xiaopeng Zhang, Liang Shen, Mickey Aleksic
