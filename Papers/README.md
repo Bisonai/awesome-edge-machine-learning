@@ -5,6 +5,8 @@
 
 There is a countless number of possible edge machine learning applications. Here, we collect papers that describe specific solutions.
 
+- [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351). Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang, Qun Liu
+
 - [Temporal Convolution for Real-time Keyword Spotting on Mobile Devices](https://arxiv.org/abs/1904.03814). Seungwoo Choi, Seokjun Seo, Beomjun Shin, Hyeongmin Byun, Martin Kersner, Beomsu Kim, Dongyoung Kim, Sungjoo Ha
 
 - [Towards Real-Time Automatic Portrait Matting on Mobile Devices](https://arxiv.org/abs/1904.03816). Seokjun Seo, Seungwoo Choi, Martin Kersner, Beomjun Shin, Hyungsuk Yoon, Hyeongmin Byun, Sungjoo Ha
