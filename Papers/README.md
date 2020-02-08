@@ -39,6 +39,8 @@ Automated machine learning (AutoML) is the process of automating the end-to-end 
 
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
+- [Compression of convolutional neural networks for high performance image matching tasks on mobile devices](https://arxiv.org/abs/2001.03102). Roy Miles, Krystian Mikolajczyk
+
 - [MixNet: Mixed Depthwise Convolutional Kernels](https://arxiv.org/abs/1907.09595). Mingxing Tan, Quoc V. Le
 
 - [Efficient On-Device Models using Neural Projections](http://proceedings.mlr.press/v97/ravi19a/ravi19a.pdf). Sujith Ravi

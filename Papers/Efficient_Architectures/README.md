@@ -6,6 +6,12 @@
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
 
+## [Compression of convolutional neural networks for high performance image matching tasks on mobile devices](https://arxiv.org/abs/2001.03102), 2020/01
+Roy Miles, Krystian Mikolajczyk
+
+Deep neural networks have demonstrated state-of-the-art performance for feature-based image matching through the advent of new large and diverse datasets. However, there has been little work on evaluating the computational cost, model size, and matching accuracy tradeoffs for these models. This paper explicitly addresses these practical constraints by considering state-of-the-art L2Net architecture. We observe a significant redundancy in the L2Net architecture, which we exploit through the use of depthwise separable layers and an efficient Tucker decomposition. We demonstrate that a combination of these methods is more effective, but still sacrifices the top-end accuracy. We therefore propose the Convolution-Depthwise-Pointwise (CDP) layer, which provides a means of interpolating between the standard and depthwise separable convolutions. With this proposed layer, we are able to achieve up to 8 times reduction in the number of parameters on the L2Net architecture, 13 times reduction in the computational complexity, while sacrificing less than 1% on the overall accuracy across the HPatches benchmarks. To further demonstrate the generalisation of this approach, we apply it to the SuperPoint model. We show that CDP layers improve upon the accuracy while using significantly less parameters and floating-point operations for inference.
+
+
 ## [MixNet: Mixed Depthwise Convolutional Kernels](https://arxiv.org/abs/1907.09595), 2019/07
 Mingxing Tan, Quoc V. Le
 

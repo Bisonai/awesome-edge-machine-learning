@@ -172,4 +172,15 @@
   abstract: >
     Deep neural networks are state of the art methods for many learning tasks due to their ability to extract increasingly better features at each network layer. However, the improved performance of additional layers in a deep network comes at the cost of added latency and energy usage in feedforward inference. As networks continue to get deeper and larger, these costs become more prohibitive for real-time and energy-sensitive applications. To address this issue, we present BranchyNet, a novel deep network architecture that is augmented with additional side branch classifiers. The architecture allows prediction results for a large portion of test samples to exit the network early via these branches when samples can already be inferred with high confidence. BranchyNet exploits the observation that features learned at an early layer of a network may often be sufficient for the classification of many data points. For more difficult samples, which are expected less frequently, BranchyNet will use further or all network layers to provide the best likelihood of correct prediction. We study the BranchyNet architecture using several well-known networks (LeNet, AlexNet, ResNet) and datasets (MNIST, CIFAR10) and show that it can both improve accuracy and significantly reduce the inference time of the network.
 
+-
+  name: >
+    Compression of convolutional neural networks for high performance image matching tasks on mobile devices
+  url: https://arxiv.org/abs/2001.03102
+  date: 2020/01/20
+  conference:
+  code:
+  authors: Roy Miles, Krystian Mikolajczyk
+  abstract: >
+    Deep neural networks have demonstrated state-of-the-art performance for feature-based image matching through the advent of new large and diverse datasets. However, there has been little work on evaluating the computational cost, model size, and matching accuracy tradeoffs for these models. This paper explicitly addresses these practical constraints by considering state-of-the-art L2Net architecture. We observe a significant redundancy in the L2Net architecture, which we exploit through the use of depthwise separable layers and an efficient Tucker decomposition. We demonstrate that a combination of these methods is more effective, but still sacrifices the top-end accuracy. We therefore propose the Convolution-Depthwise-Pointwise (CDP) layer, which provides a means of interpolating between the standard and depthwise separable convolutions. With this proposed layer, we are able to achieve up to 8 times reduction in the number of parameters on the L2Net architecture, 13 times reduction in the computational complexity, while sacrificing less than 1% on the overall accuracy across the HPatches benchmarks. To further demonstrate the generalisation of this approach, we apply it to the SuperPoint model. We show that CDP layers improve upon the accuracy while using significantly less parameters and floating-point operations for inference.
+
 ...
