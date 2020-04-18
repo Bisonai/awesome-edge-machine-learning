@@ -13,6 +13,7 @@ def renderer(fp, data, config):
         li(fp, [
             a(data["link"]),
         ])
+        fp.write("\n")
 
     if data["description"] is not None:
         fp.write(data["description"])
