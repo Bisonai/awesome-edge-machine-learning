@@ -1,0 +1,84 @@
+# MCU AND MPU SOFTWARE PACKAGES
+#
+# [Template]
+#
+# -
+#     name:
+#     company:
+#     sourcecode:
+#     documentation:
+#     platform:
+#     gpu:
+---
+
+-
+    name: FP-AI-Sensing
+    description: STM32Cube function pack for ultra-low power IoT node with artificial intelligence (AI) application based on audio and motion sensing
+    link: https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-ai-sensing1.html
+    company: STMicroelectronics
+
+-
+    name: FP-AI-VISION1
+    description: FP-AI-VISION1 is an STM32Cube function pack featuring examples of computer vision applications based on Convolutional Neural Network (CNN)
+    link: https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-expansion-packages/fp-ai-vision1.html
+    company: STMicroelectronics
+
+-
+    name: X-LINUX-AI-CV
+    description: X-LINUX-AI-CV is an STM32 MPU OpenSTLinux Expansion Package that targets Artificial Intelligence for computer vision applications based on Convolutional Neural Network (CNN)
+    link: https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32-mpu-openstlinux-expansion-packages/x-linux-ai-cv.html
+    company: STMicroelectronics
+
+-
+    name: e-AI Translator
+    description: Tool for converting  Caffe and TensorFlow models to MCU/MPU development environment
+    link: https://www.renesas.com/jp/en/solutions/key-technology/e-ai/tool.html
+    company: Renesas
+
+-
+    name: e-AI Checker
+    description: Based on the output result from the translator, the ROM/RAM mounting size and the inference execution processing time are calculated while referring to the information of the selected MCU/MPU
+    link: https://www.renesas.com/jp/en/solutions/key-technology/e-ai/tool.html
+    company: Renesas
+
+-
+    name: Processor SDK Linux for AM57x
+    description: TIDL software framework leverages a highly optimized neural network implementation on TI’s Sitara AM57x processors, making use of hardware acceleration on the device
+    link: www.ti.com/tool/SITARA-MACHINE-LEARNING
+    company: Texas Instruments
+
+-
+    name: eIQ ML Software Development Environment
+    description: The NXP® eIQ™ machine learning software development environment enables the use of ML algorithms on NXP MCUs, i.MX RT crossover MCUs, and i.MX family SoCs. eIQ software includes inference engines, neural network compilers and optimized libraries
+    link: https://www.nxp.com/design/software/development-software/eiq-ml-development-environment:EIQ
+    company: NXP
+
+-
+    name: eIQ Auto deep learning (DL) toolkit
+    description: The NXP eIQ™ Auto deep learning (DL) toolkit enables developers to introduce DL algorithms into their applications and to continue satisfying automotive standards
+    link: https://www.nxp.com/design/software/development-software/eiq-auto-dl-toolkit:EIQ-AUTO
+    company: NXP
+
+-
+    name: eIQ™ Software for Arm® NN Inference Engine
+    description:
+    link: https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-software-for-arm-nn-inference-engine:eIQArmNN
+    company: NXP
+
+-
+    name: eIQ™ for TensorFlow Lite
+    description:
+    link: https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-tensorflow-lite:eIQTensorFlowLite
+    company: NXP
+
+-
+    name: eIQ™ for Glow Neural Network Compiler
+    description:
+    link: https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-glow-neural-network-compiler:eIQ-Glow
+    company: NXP
+
+-
+    name: eIQ™ for Arm® CMSIS-NN
+    description:
+    link: https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-arm-cmsis-nn:eIQArmCMSISNN
+    company: NXP

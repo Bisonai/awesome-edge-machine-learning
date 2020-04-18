@@ -15,6 +15,7 @@ A curated list of awesome edge machine learning resources, including research pa
 	- [Quantization](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Quantization)
 - [Datasets](https://github.com/bisonai/awesome-edge-machine-learning#datasets)
 - [Inference Engines](https://github.com/bisonai/awesome-edge-machine-learning#inference-engines)
+- [MCU and MPU Software Packages](https://github.com/bisonai/awesome-edge-machine-learning#mcu-and-mpu-software-packages)
 - [Books](https://github.com/bisonai/awesome-edge-machine-learning#books)
 - [Challenges](https://github.com/bisonai/awesome-edge-machine-learning#challenges)
 - [Other Resources](https://github.com/bisonai/awesome-edge-machine-learning#other-resources)
@@ -134,6 +135,65 @@ List of machine learning inference engines and APIs that are optimized for execu
 ### dabnn
 - Source code: [https://github.com/JDAI-CV/dabnn](https://github.com/JDAI-CV/dabnn)
 - JDAI Computer Vision
+
+## MCU and MPU Software Packages
+List of software packages for AI development on MCU and MPU
+
+### FP-AI-Sensing
+- Company: STMicroelectronics
+- [https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-ai-sensing1.html](https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-ai-sensing1.html)
+STM32Cube function pack for ultra-low power IoT node with artificial intelligence (AI) application based on audio and motion sensing
+
+### FP-AI-VISION1
+- Company: STMicroelectronics
+- [https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-expansion-packages/fp-ai-vision1.html](https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-expansion-packages/fp-ai-vision1.html)
+FP-AI-VISION1 is an STM32Cube function pack featuring examples of computer vision applications based on Convolutional Neural Network (CNN)
+
+### Processor SDK Linux for AM57x
+- Company: Texas Instruments
+- [www.ti.com/tool/SITARA-MACHINE-LEARNING](www.ti.com/tool/SITARA-MACHINE-LEARNING)
+TIDL software framework leverages a highly optimized neural network implementation on TI’s Sitara AM57x processors, making use of hardware acceleration on the device
+
+### X-LINUX-AI-CV
+- Company: STMicroelectronics
+- [https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32-mpu-openstlinux-expansion-packages/x-linux-ai-cv.html](https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32-mpu-openstlinux-expansion-packages/x-linux-ai-cv.html)
+X-LINUX-AI-CV is an STM32 MPU OpenSTLinux Expansion Package that targets Artificial Intelligence for computer vision applications based on Convolutional Neural Network (CNN)
+
+### e-AI Checker
+- Company: Renesas
+- [https://www.renesas.com/jp/en/solutions/key-technology/e-ai/tool.html](https://www.renesas.com/jp/en/solutions/key-technology/e-ai/tool.html)
+Based on the output result from the translator, the ROM/RAM mounting size and the inference execution processing time are calculated while referring to the information of the selected MCU/MPU
+
+### e-AI Translator
+- Company: Renesas
+- [https://www.renesas.com/jp/en/solutions/key-technology/e-ai/tool.html](https://www.renesas.com/jp/en/solutions/key-technology/e-ai/tool.html)
+Tool for converting  Caffe and TensorFlow models to MCU/MPU development environment
+
+### eIQ Auto deep learning (DL) toolkit
+- Company: NXP
+- [https://www.nxp.com/design/software/development-software/eiq-auto-dl-toolkit:EIQ-AUTO](https://www.nxp.com/design/software/development-software/eiq-auto-dl-toolkit:EIQ-AUTO)
+The NXP eIQ™ Auto deep learning (DL) toolkit enables developers to introduce DL algorithms into their applications and to continue satisfying automotive standards
+
+### eIQ ML Software Development Environment
+- Company: NXP
+- [https://www.nxp.com/design/software/development-software/eiq-ml-development-environment:EIQ](https://www.nxp.com/design/software/development-software/eiq-ml-development-environment:EIQ)
+The NXP® eIQ™ machine learning software development environment enables the use of ML algorithms on NXP MCUs, i.MX RT crossover MCUs, and i.MX family SoCs. eIQ software includes inference engines, neural network compilers and optimized libraries
+
+### eIQ™ Software for Arm® NN Inference Engine
+- Company: NXP
+- [https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-software-for-arm-nn-inference-engine:eIQArmNN](https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-software-for-arm-nn-inference-engine:eIQArmNN)
+
+### eIQ™ for Arm® CMSIS-NN
+- Company: NXP
+- [https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-arm-cmsis-nn:eIQArmCMSISNN](https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-arm-cmsis-nn:eIQArmCMSISNN)
+
+### eIQ™ for Glow Neural Network Compiler
+- Company: NXP
+- [https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-glow-neural-network-compiler:eIQ-Glow](https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-glow-neural-network-compiler:eIQ-Glow)
+
+### eIQ™ for TensorFlow Lite
+- Company: NXP
+- [https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-tensorflow-lite:eIQTensorFlowLite](https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-tensorflow-lite:eIQTensorFlowLite)
 
 ## Books
 List of books with focus on on-device (e.g., edge or mobile) machine learning.

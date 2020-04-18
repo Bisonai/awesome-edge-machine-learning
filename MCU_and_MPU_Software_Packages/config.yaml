@@ -1,0 +1,11 @@
+# MCU AND MPU SOFTWARE PACKAGES
+#
+# [Template]
+#
+# description:
+# sort_key:
+# sort_reverse:
+---
+description: List of software packages for AI development on MCU and MPU
+sort_key: name
+...

@@ -19,6 +19,9 @@
 -
   name: Inference Engines
 
+-
+  name: MCU and MPU Software Packages
+
 #-
 #    name: Labs
 # TODO bisonai inference time benchmark

@@ -41,6 +41,7 @@ def h5(text):
 def h6(text):
     return "###### " + text + "\n"
 
+
 def p(text):
     if text is None:
         return "\n"
