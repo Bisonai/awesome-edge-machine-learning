@@ -17,7 +17,7 @@ There is a countless number of possible edge machine learning applications. Here
 
 - [PFLD: A Practical Facial Landmark Detector](https://arxiv.org/abs/1902.10859). Xiaojie Guo, Siyuan Li, Jinke Yu, Jiawan Zhang, Jiayi Ma, Lin Ma, Wei Liu, Haibin Ling
 
-- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383). Ji Lin, Chuang Gan, Song Hna
+- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383). Ji Lin, Chuang Gan, Song Han
 
 ## AutoML
 
