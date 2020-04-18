@@ -1,0 +1,11 @@
+# AI CHIPS
+#
+# [Template]
+#
+# description:
+# sort_key:
+# sort_reverse:
+---
+description: List of resources about AI Chips
+sort_key: name
+...

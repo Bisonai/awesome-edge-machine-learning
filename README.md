@@ -16,6 +16,7 @@ A curated list of awesome edge machine learning resources, including research pa
 - [Datasets](https://github.com/bisonai/awesome-edge-machine-learning#datasets)
 - [Inference Engines](https://github.com/bisonai/awesome-edge-machine-learning#inference-engines)
 - [MCU and MPU Software Packages](https://github.com/bisonai/awesome-edge-machine-learning#mcu-and-mpu-software-packages)
+- [AI Chips](https://github.com/bisonai/awesome-edge-machine-learning#ai-chips)
 - [Books](https://github.com/bisonai/awesome-edge-machine-learning#books)
 - [Challenges](https://github.com/bisonai/awesome-edge-machine-learning#challenges)
 - [Other Resources](https://github.com/bisonai/awesome-edge-machine-learning#other-resources)
@@ -170,6 +171,12 @@ The NXP® eIQ™ machine learning software development environment enables the u
 ### [eIQ™ for Glow Neural Network Compiler](https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-glow-neural-network-compiler:eIQ-Glow)
 
 ### [eIQ™ for TensorFlow Lite](https://www.nxp.com/design/software/development-software/eiq-ml-development-environment/eiq-for-tensorflow-lite:eIQTensorFlowLite)
+
+## AI Chips
+List of resources about AI Chips
+
+### [AI Chip (ICs and IPs)](https://github.com/basicmi/AI-Chip)
+A list of ICs and IPs for AI
 
 ## Books
 List of books with focus on on-device (e.g., edge or mobile) machine learning.

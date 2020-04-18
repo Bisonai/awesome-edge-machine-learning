@@ -1,0 +1,14 @@
+# AI CHIPS
+#
+# [Template]
+#
+# -
+#     name:
+#     description:
+#     link:
+---
+
+-
+    name: AI Chip (ICs and IPs)
+    description: A list of ICs and IPs for AI
+    link: https://github.com/basicmi/AI-Chip

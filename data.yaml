@@ -22,6 +22,9 @@
 -
   name: MCU and MPU Software Packages
 
+-
+  name: AI Chips
+
 #-
 #    name: Labs
 # TODO bisonai inference time benchmark
