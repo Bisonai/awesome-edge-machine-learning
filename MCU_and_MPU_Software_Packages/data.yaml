@@ -44,7 +44,7 @@
 -
     name: Processor SDK Linux for AM57x
     description: TIDL software framework leverages a highly optimized neural network implementation on TI’s Sitara AM57x processors, making use of hardware acceleration on the device
-    link: www.ti.com/tool/SITARA-MACHINE-LEARNING
+    link: http://www.ti.com/tool/SITARA-MACHINE-LEARNING
     company: Texas Instruments
 
 -

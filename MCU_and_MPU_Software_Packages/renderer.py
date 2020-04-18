@@ -4,16 +4,7 @@ from style import a
 
 
 def renderer(fp, data, config):
-    fp.write(h3(data["name"]))
-
-    if data["company"] is not None:
-        li(fp, ["Company: ", data["company"]])
-
-    if data["link"] is not None:
-        li(fp, [
-            a(data["link"]),
-        ])
-        fp.write("\n")
+    fp.write(h3(a([data["name"], data["link"]])))
 
     if data["description"] is not None:
         fp.write(data["description"])
