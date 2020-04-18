@@ -17,6 +17,8 @@ There is a countless number of possible edge machine learning applications. Here
 
 - [PFLD: A Practical Facial Landmark Detector](https://arxiv.org/abs/1902.10859). Xiaojie Guo, Siyuan Li, Jinke Yu, Jiawan Zhang, Jiayi Ma, Lin Ma, Wei Liu, Haibin Ling
 
+- [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383). Ji Lin, Chuang Gan, Song Hna
+
 ## AutoML
 
 Automated machine learning (AutoML) is the process of automating the end-to-end process of applying machine learning to real-world problems.<sup><a href="https://en.wikipedia.org/wiki/Automated_machine_learning" targe="_blank">Wikipedia</a></sup> AutoML is for example used to design new efficient neural architectures with a constraint on a computational budget (defined either as a number of FLOPS or as an inference time measured on real device) or a size of the architecture.
@@ -40,6 +42,8 @@ Automated machine learning (AutoML) is the process of automating the end-to-end 
 Efficient architectures represent neural networks with small memory footprint and fast inference time when measured on edge devices.
 
 - [Compression of convolutional neural networks for high performance image matching tasks on mobile devices](https://arxiv.org/abs/2001.03102). Roy Miles, Krystian Mikolajczyk
+
+- [Once-for-All: Train One Network and Specialize it for Efficient Deployment on Diverse Hardware Platforms](https://arxiv.org/abs/1908.09791). Han Cai, Chuang Gan, Tianzhe Wang, Zhekai Zhang, Song Han
 
 - [MixNet: Mixed Depthwise Convolutional Kernels](https://arxiv.org/abs/1907.09595). Mingxing Tan, Quoc V. Le
 
