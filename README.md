@@ -176,7 +176,7 @@ The NXP® eIQ™ machine learning software development environment enables the u
 List of resources about AI Chips
 
 ### [AI Chip (ICs and IPs)](https://github.com/basicmi/AI-Chip)
-A list of ICs and IPs for AI
+A list of ICs and IPs for AI, Machine Learning and Deep Learning
 
 ## Books
 List of books with focus on on-device (e.g., edge or mobile) machine learning.
