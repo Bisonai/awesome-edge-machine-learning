@@ -21,7 +21,7 @@ A curated list of awesome edge machine learning resources, including research pa
 - [Challenges](https://github.com/bisonai/awesome-edge-machine-learning#challenges)
 - [Other Resources](https://github.com/bisonai/awesome-edge-machine-learning#other-resources)
 - [Contribute](https://github.com/bisonai/awesome-edge-machine-learning#contribute)
-- [License](https://github.com/bisonai/awesome-edge-machine-learning#license)
+- [LicenseBlock](https://github.com/bisonai/awesome-edge-machine-learning#licenseblock)
 
 ## Papers
 ### [Applications](https://github.com/bisonai/awesome-edge-machine-learning/tree/master/Papers/Applications)
@@ -211,10 +211,6 @@ Competition with focus on the best vision solutions that can simultaneously achi
 
 Embedded and mobile deep learning research resources
 
-### [Awesome Mobile Machine Learning](https://github.com/fritzlabs/Awesome-Mobile-Machine-Learning)
-
-A curated list of awesome mobile machine learning resources for iOS, Android, and edge devices
-
 ### [Awesome Pruning](https://github.com/he-y/Awesome-Pruning)
 
 A curated list of neural network pruning resources
@@ -237,7 +233,7 @@ Unlike other awesome list, we are storing data in <a href="https://en.wikipedia.
 Every directory contains `data.yaml` which stores data we want to display and `config.yaml` which stores its metadata (e.g. way of sorting data). The way how data will be presented is defined in `renderer.py`.
 
 
-## License
+## LicenseBlock
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Bisonai](https://bisonai.com/) has waived all copyright and related or neighboring rights to this work.
