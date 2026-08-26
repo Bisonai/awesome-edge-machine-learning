@@ -132,6 +132,14 @@
     gpu: true
 
 -
+    name: CosmoEdge
+    company: CosmoEdge Contributors
+    sourcecode: https://github.com/cosmo-wander-ai/cosmo-edge
+    documentation: https://www.cosmowander.ai/docs/
+    platform: Linux (Sophon BM1688/CV186X, Rockchip RK3576/RV1126B, x86)
+    gpu: false
+
+-
     name: Neural Networks API
     company: Google
     sourcecode:

@@ -82,6 +82,11 @@ List of machine learning inference engines and APIs that are optimized for execu
 - Documentation: [https://developer.apple.com/documentation/coreml](https://developer.apple.com/documentation/coreml)
 - Apple
 
+### CosmoEdge
+- Source code: [https://github.com/cosmo-wander-ai/cosmo-edge](https://github.com/cosmo-wander-ai/cosmo-edge)
+- Documentation: [https://www.cosmowander.ai/docs/](https://www.cosmowander.ai/docs/)
+- CosmoEdge Contributors
+
 ### Deeplearning4j
 - Documentation: [https://deeplearning4j.org/docs/latest/deeplearning4j-android](https://deeplearning4j.org/docs/latest/deeplearning4j-android)
 - Skymind
