@@ -142,6 +142,11 @@ List of machine learning inference engines and APIs that are optimized for execu
 - Source code: [https://github.com/JDAI-CV/dabnn](https://github.com/JDAI-CV/dabnn)
 - JDAI Computer Vision
 
+### jevos
+- Source code: [https://github.com/feder-cr/jev](https://github.com/feder-cr/jev)
+- Documentation: [https://github.com/feder-cr/jev/releases/tag/jevos](https://github.com/feder-cr/jev/releases/tag/jevos)
+- Federico Elia, Loris Salsi
+
 ## MCU and MPU Software Packages
 List of software packages for AI development on MCU and MPU
 
