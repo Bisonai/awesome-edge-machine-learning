@@ -155,4 +155,12 @@
     platform:
     gpu:
 
+-
+    name: jevos
+    company: Federico Elia, Loris Salsi
+    sourcecode: https://github.com/feder-cr/jev
+    documentation: https://github.com/feder-cr/jev/releases/tag/jevos
+    platform: CPU (Windows, Linux, macOS)
+    gpu: false
+
 ...
