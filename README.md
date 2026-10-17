@@ -68,6 +68,11 @@ List of machine learning inference engines and APIs that are optimized for execu
 - Source code: [https://github.com/ARM-software/ComputeLibrary](https://github.com/ARM-software/ComputeLibrary)
 - Arm
 
+### BakeNN
+- Source code: [https://github.com/scienthoon/bakeNN](https://github.com/scienthoon/bakeNN)
+- Documentation: [https://github.com/scienthoon/bakeNN#readme](https://github.com/scienthoon/bakeNN#readme)
+- BakeNN Contributors
+
 ### Bender
 - Source code: [https://github.com/xmartlabs/Bender](https://github.com/xmartlabs/Bender)
 - Documentation: [https://xmartlabs.github.io/Bender/](https://xmartlabs.github.io/Bender/)

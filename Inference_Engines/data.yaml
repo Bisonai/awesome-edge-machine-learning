@@ -155,4 +155,12 @@
     platform:
     gpu:
 
+-
+    name: BakeNN
+    company: BakeNN Contributors
+    sourcecode: https://github.com/scienthoon/bakeNN
+    documentation: https://github.com/scienthoon/bakeNN#readme
+    platform: Microcontrollers (Cortex-M, ESP32)
+    gpu: false
+
 ...
