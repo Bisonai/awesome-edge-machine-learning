@@ -156,6 +156,14 @@
     gpu:
 
 -
+    name: Desert Ant Labs
+    company: Desert Ant Labs
+    sourcecode: https://github.com/Desert-Ant-Labs/desert-ant-core
+    documentation: https://desertant.com/docs/
+    platform: iOS, Android, Web
+    gpu: true
+
+-
     name: BakeNN
     company: BakeNN Contributors
     sourcecode: https://github.com/scienthoon/bakeNN

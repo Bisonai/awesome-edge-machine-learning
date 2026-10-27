@@ -96,6 +96,11 @@ List of machine learning inference engines and APIs that are optimized for execu
 - Documentation: [https://deeplearning4j.org/docs/latest/deeplearning4j-android](https://deeplearning4j.org/docs/latest/deeplearning4j-android)
 - Skymind
 
+### Desert Ant Labs
+- Source code: [https://github.com/Desert-Ant-Labs/desert-ant-core](https://github.com/Desert-Ant-Labs/desert-ant-core)
+- Documentation: [https://desertant.com/docs/](https://desertant.com/docs/)
+- Desert Ant Labs
+
 ### Embedded Learning Library
 - Source code: [https://github.com/Microsoft/ELL](https://github.com/Microsoft/ELL)
 - Documentation: [https://microsoft.github.io/ELL](https://microsoft.github.io/ELL)
